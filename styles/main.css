@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  color: #000;
+  font-family: 'Barlow', Verdana, sans-serif;
+  line-height: 20px;
+}
+
+header {
+  background: #fff;
+  border-style: solid;
+  border-color: #424B1A;
+  border-width: 10px;
+  color: #424B1A;
+  font-family: Raleway, Verdana, sans-serif;
+  padding: 20px;
+  font-size: 240%;
+  line-height: 50px;
+  margin: 20px;
+  text-align: center;
+}
+
+.subheading {
+  color: #000;
+}
+
+.directions {
+  color: #fff;
+  margin: 0;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  font-family: Raleway, Verdana, sans-serif;
+}
+
+#bigImage {
+  float: left;
+  width: 50%;
+  padding-left: 60px;
+  padding-top: 20px;
+
+  clear: both;
+
+}
+#text {
+  float: right;
+  width: 50%;
+  padding-right: 150px;
+  padding-top: 15px;
+}
+
+#allImages {
+clear: both;
+padding-left: 60px;
+padding-top: 30px;
+background: #424B1A;
+margin: 20px;
+margin-bottom: 0;
+padding-bottom: 20px;
+}
+
+.player {
+    padding-left: 80px;
+    background: #424B1A;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+audio {
+  width: 91%;
+}
+
+#img_dreams {
+  padding: 20px;
+  min-width: 23%
+}
+
+#img_everywhere {
+  padding: 20px;
+    min-width: 23%
+}
+
+#img_landslide {
+  padding: 20px;
+    min-width: 23%
+}
+
+#img_rhiannon {
+  padding: 20px;
+    min-width: 23%
+}
+
+.button {
+  color: #379CB2;
+}
+
+footer {
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+a { color: #379CB2; }
+a:hover { color: #82E8FF; }
+
+@media (max-width: 1190px) {
+
+      header {
+        padding: 10px;
+        margin: 20px;
+        font-size: 150%;
+      }
+
+      h1 {
+        margin: auto;
+      }
+
+      #bigImage {
+        margin: 0;
+        float: none;
+        padding: 20px;
+        width: 100%;
+      }
+
+      #headimage {
+        max-width: 100%;
+        padding: 0;
+        display: block;
+        margin: auto;
+      }
+
+      #text {
+        margin: 0;
+        width: 100%;
+        float: none;
+        padding: 20px;
+        padding-top: 0;
+      }
+
+      #allImages {
+        margin: 0;
+      }
+
+      footer {
+        margin: 0;
+      }
+
+      .player {
+        margin: 0;
+      }
+
+}
+
+@media (max-width: 800px) {
+
+      header {
+        text-align: left;
+      }
+
+      audio {
+        width: 66%;
+      }
+
+  }
