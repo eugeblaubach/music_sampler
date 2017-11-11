@@ -39,19 +39,14 @@ $('.image').click(function() {
     }
   });
   $( "#more_text" ).hide();
-  $( "#button2" ).hide();
+
 
   $('#button1').click(function() {
     $('#more_text').slideToggle();
-    $( "#button1" ).hide();
-    $( "#button2" ).show();
+
 });
 
-$('#button2').click(function() {
-  $('#more_text').slideToggle();
-  $( "#button1" ).show();
-  $( "#button2" ).hide();
-});
+
 
 
 });

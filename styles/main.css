@@ -27,6 +27,14 @@ header {
   color: #000;
 }
 
+#button1 {
+  color: #379CB2;
+}
+
+#button1:hover {
+  color: #82E8FF;
+}
+
 .directions {
   color: #fff;
   margin: 0;
